@@ -47,3 +47,4 @@ docker exec -d -w /code modelv1 uvicorn main:app --proxy-headers --host 0.0.0.0 
 var=$(docker ps --format "{{.Names}}" | head -n 1)
 
 ```
+
